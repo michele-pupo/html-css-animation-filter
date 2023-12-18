@@ -82,3 +82,13 @@
     transition: 0.3s;
 }
 /* fine esercizio 2 */
+
+
+/* esercizio 3 */
+.ex-3-square:active{
+    border-radius: 100%;
+    transition: 0.3s;
+}
+/* fine esercizio 3 */
+
+
