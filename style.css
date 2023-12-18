@@ -71,5 +71,14 @@
 /* esercizio 1 */
 .ex-1-square:hover{
     background-color: red;
+    transition: 0.3s;
 }
 /* fine esercizio 1 */
+
+
+/* esercizio 2 */
+.ex-2-square:active{
+    width: 100%;
+    transition: 0.3s;
+}
+/* fine esercizio 2 */
