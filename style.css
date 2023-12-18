@@ -92,3 +92,11 @@
 /* fine esercizio 3 */
 
 
+/* esercizio 4 */
+.ex-4-square:active{
+    opacity: 0;
+    transition: 0.3s;
+}
+/* fine esercizio 4 */
+
+
