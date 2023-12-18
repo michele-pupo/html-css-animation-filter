@@ -180,6 +180,60 @@
 /* fine esercizio 11 */
 
 
+/* esercizio 12 */
+.ex-12-top-white{
+    animation: rotate-button-left 1.5s reverse linear infinite;;
+}
+
+@keyframes rotate-button-left{
+    0%{
+        left: 0px;
+    }
+
+    25%{
+        left: 25px;
+    }
+
+    50%{
+        left: 50px;
+    }
+
+    75%{
+        left: 75px;
+    }
+
+    100%{
+        left: 0px;
+    }
+}
+
+.ex-12-bottom-white{
+    animation: rotate-button-right 1.5s reverse linear infinite;;
+}
+
+@keyframes rotate-button-right{
+    0%{
+        right: 0px;
+    }
+
+    25%{
+        right: 25px;
+    }
+
+    50%{
+        right: 50px;
+    }
+
+    75%{
+        right: 75px;
+    }
+
+    100%{
+        right: 0px;
+    }
+}
+/* fine esercizio 12 */
+
 
 
 
