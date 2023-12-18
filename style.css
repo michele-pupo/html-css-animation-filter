@@ -130,11 +130,21 @@
 
 
 /* esercizio 8 */
-.ex-8-img:hover {
+.ex-8-img:hover{
     filter: brightness(5) saturate(2); 
     border-radius: 20px;
 }
 /* fine esercizio 8 */
+
+
+/* esercizio 9 */
+.ex-9-img:hover{
+    filter: sepia(2) brightness(3); 
+    border-radius: 20px;
+    transform: scale(0.3)
+}
+/* fine esercizio 9 */
+
 
 
 
