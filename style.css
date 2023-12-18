@@ -85,7 +85,7 @@
 
 
 /* esercizio 3 */
-.ex-3-square:active{
+.ex-3-square:hover{
     border-radius: 100%;
     transition: 0.3s;
 }
@@ -93,7 +93,7 @@
 
 
 /* esercizio 4 */
-.ex-4-square:active{
+.ex-4-square:hover{
     opacity: 0;
     transition: 0.3s;
 }
@@ -124,7 +124,7 @@
 /* esercizio 7 */
 .ex-7-img:hover{
     filter:contrast(3) invert(5);
-    transition: 0.3s;
+    transition: 3s;
 }
 /* fine esercizio 7 */
 
@@ -160,7 +160,7 @@
 
 
 /* esercizio 11 */
-.ex-11-icon{
+.ex-11-icon:hover{
     animation: rotate-reverse 1.5s reverse linear infinite;
 }
 
@@ -233,6 +233,73 @@
     }
 }
 /* fine esercizio 12 */
+
+
+
+/* esercizio 13 */
+.ex-13-top-white{
+    animation: rotate-buttonultimate-left 1.5s reverse linear infinite;;
+}
+
+@keyframes rotate-buttonultimate-left{
+    0%{
+        left: 0px;
+        top: -10px;
+    }
+
+    25%{
+        left: 25px;
+        top: -10px;
+    }
+
+    50%{
+        left: 50px;
+        top: 100%;
+    }
+
+    75%{
+        left: 75px;
+        top: -10px;
+    }
+
+    100%{
+        left: 0px;
+        top: -10px;
+    }
+}
+
+.ex-13-bottom-white{
+    animation: rotate-buttonultimate-right 1.5s reverse linear infinite;;
+}
+
+@keyframes rotate-buttonultimate-right{
+    0%{
+        right: 0px;
+        bottom: -10px;
+    }
+
+    25%{
+        right: 25px;
+        bottom: -10px;
+    }
+
+    50%{
+        right: 50px;
+        bottom: 100%;
+    }
+
+    75%{
+        right: 75px;
+        bottom: -10px;
+    }
+
+    100%{
+        right: 0px;
+        bottom: -10px;
+    }
+}
+/* fine esercizio 13 */
+
 
 
 
