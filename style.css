@@ -114,9 +114,19 @@
 
 
 /* esercizio 6 */
-.ex-6-img{
+.ex-6-img:hover{
     filter: grayscale(1);
+    transition: 0.3s;
 }
 /* fine esercizio 6 */
+
+
+/* esercizio 7 */
+.ex-7-img:hover{
+    filter:contrast(3) invert(5);
+    transition: 0.3s;
+}
+/* fine esercizio 7 */
+
 
 
