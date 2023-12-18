@@ -159,6 +159,28 @@
 /* fine esercizio 10 */
 
 
+/* esercizio 11 */
+.ex-11-icon{
+    animation: rotate-reverse 1.5s reverse linear infinite;
+}
+
+@keyframes rotate-reverse{
+    0%{
+        transform: rotate(0);
+    }
+
+    75%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(0);
+    }
+}
+/* fine esercizio 11 */
+
+
+
 
 
 
