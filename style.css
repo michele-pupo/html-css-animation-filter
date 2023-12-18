@@ -129,4 +129,12 @@
 /* fine esercizio 7 */
 
 
+/* esercizio 8 */
+.ex-8-img:hover {
+    filter: brightness(5) saturate(2); 
+    border-radius: 20px;
+}
+/* fine esercizio 8 */
+
+
 
